@@ -42,7 +42,7 @@ export function symbolsReplace(message) {
         } else {
             newMessage += message[i];
         }
-        index++;
+        i++;
     } while (i < message.length);
 
     return newMessage;
